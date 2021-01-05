@@ -1,0 +1,101 @@
+.Weather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.weatherCard{
+    height: 460px;
+    width: 320px;
+    background: linear-gradient(#56CCF2, #2F80ED, rgb(61, 0, 160));
+    border-radius: 24px;
+    overflow: hidden;
+    position: relative;
+}
+
+.sky{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.cloud1{
+    width: 100%;
+    height: 60px;
+    background: #D0F4FC;;
+    margin: 0 auto;
+    border-radius: 24px;
+}
+
+.cloud2{
+    width: 75%;
+    height: 55px;
+    background: white;
+    margin-top: -30px !important;
+    margin: 0 auto;
+    border-radius: 24px;
+}
+
+.cloud3{
+    width: 60%;
+    height: 40px;
+    background:#D0F4FC;;
+    margin-top: -15px !important;
+    margin: 0 auto;
+    border-radius: 24px;
+}
+
+.sun{
+    width: 90px;
+    height: 90px;
+    background: yellow;
+    border-radius: 50% !important;
+    margin-top: -70px !important;
+    margin: 0 auto;
+    border-radius: 24px;
+}
+
+.content{
+    margin-top: 140px;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+.content__temp{
+    font-size: 80px;
+    margin-left: 20px;
+}
+
+.content__min{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.details{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100%;
+    margin-top: 16px;
+    font-weight: 300;
+    row-gap: 8px;
+}
+
+.value{
+    font-size: 36px;
+}
+
+.label{
+    font-size: 14px;
+}
+
+.cityTitle{
+    color: #3F51B5;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 320px;
+}
